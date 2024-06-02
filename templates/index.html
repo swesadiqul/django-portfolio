@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- fontawesome css link -->
+    <!-- <link rel="stylesheet" href="{% static 'css/fontawesome.min.css' %}"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="{% static 'css/all.min.css' %}"> -->
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+
+
+    <!-- header section starts -->
+    <header>
+        <div class="user">
+            <img src="{% static 'images/person.jpg' %}" alt="Person">
+            <h3 class="name">Sadiqul Islam</h3>
+            <p class="post">Django Developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <h3>HI THERE !</h3>
+        <h1>I'M <span>Sadiqul Islam</span></h1>
+        <p>Django developer with 1+ years of experience. I'm working with <span>Django</span>, <span>Django Rest Framework</span> as back-end and 
+            <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>jQuery</span>, <span>Bootstrap</span> as front-end technology. Recently I'm learning 
+            <span>React js</span> and <span>Mongo DB</span>. I enjoy always learning new technologies and staying up-to-date on 
+            current trends in web development.</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    </section>
+    <!-- home section ends -->
+
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me</h1>
+        <div class="row">
+            <div class="info">
+                <h3><span>name:</span>Md Sadiqul Islam</h3>
+                <h3><span>age:</span>26 years old.</h3>
+                <h3><span>qualification:</span>diploma in computer science</h3>
+                <h3><span>post:</span>django developer</h3>
+                <h3><span>language:</span>bangla, english</h3>
+                <a href="https://drive.google.com/file/d/1z4ToqnLgc6fsDKp7Me5BET_HyoeUOzpb/view?usp=sharing"><button class="btn">download CV <i class="fas fa-download"></i></button></a>
+            </div>
+            <div class="counter">
+                <div class="box">
+                    <span>1.5+</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>5+</span>
+                    <h3>project completed</h3>
+                </div>
+                <div class="box">
+                    <span>50+</span>
+                    <h3>happy clients</h3>
+                </div>
+                <div class="box">
+                    <span>12+</span>
+                    <h3>awards won</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+
+    <!-- education section starts -->
+    <section class="education" id="education">
+        <h1 class="heading">my <span>education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <small>2017-2022</small>
+                <h3>diploma in engineering</h3>
+                <h3><span>technology:</span>Computer Science</h3>
+                <h3><span>institute:</span>thakurgaon polytechnic institute</h3>
+                <h3 class="text-upper"><span>board:</span>bteb</h3>
+                <h3><span class="text-upper">cgpa:</span>3.83 (out of 4.00)</h3>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <small>2022</small>
+                <h3>web application development</h3>
+                <h3><span>group:</span>python with django</h3>
+                <h3><span>institute:</span>people n tech</h3>
+                <h3><span>bearing id:</span>16400053251</h3>
+                <h3><span>issue date:</span>25-03-2022</h3>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <small>2016-2017</small>
+                <h3>dakhil examination</h3>
+                <h3><span>group:</span>science</h3>
+                <h3><span>madrasah:</span>dhap shyampur dakhil madrasah</h3>
+                <h3 class="text-upper"><span>board:</span>bmed</h3>
+                <h3><span class="text-upper">gpa:</span>4.89 (out of 5.00)</h3>
+            </div>
+        </div>
+    </section>
+    <!-- education section ends -->
+
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+        <h1 class="heading">my <span>skills</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <span>3+</span>
+                <h3>Html</h3>
+            </div>
+            <div class="box">
+                <span>2+</span>
+                <h3>CSS</h3>
+            </div>
+            <div class="box">
+                <span>1.5+</span>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="box">
+                <span>3+</span>
+                <h3>jQuery</h3>
+            </div>
+            <div class="box">
+                <span>3+</span>
+                <h3>Python</h3>
+            </div>
+            <div class="box">
+                <span>1+</span>
+                <h3>Django</h3>
+            </div>
+            <div class="box">
+                <span>2+</span>
+                <h3>Communication</h3>
+            </div>
+            <div class="box">
+                <span>1+</span>
+                <h3>team work</h3>
+            </div>
+            <div class="box">
+                <span>1+</span>
+                <h3>project management</h3>
+            </div>
+            <div class="box">
+                <span>5+</span>
+                <h3>creativity</h3>
+            </div>
+        </div>
+    </section>
+    <!-- skills section ends -->
+
+
+    <!-- portfolio section starts -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading"> my <span>portfolio</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="{% static 'images/books.jpg' %}" alt="Library">
+            </div>
+            <div class="box">
+                <img src="{% static 'images/employee.png' %}" alt="Employee">
+            </div>
+            <div class="box">
+                <img src="{% static 'images/portfolio.jpg' %}" alt="Portfolio">
+            </div>
+            <div class="box">
+                <img src="{% static 'images/todo.jpg' %}" alt="Todo">
+            </div>
+            <div class="box">
+                <img src="{% static 'images/tuitioin.jpg' %}" alt="Tuition">
+            </div>
+            <div class="box">
+                <img src="{% static 'images/weather.jpg' %}" alt="Weather">
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span> contact </span>me</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>swesadiqul@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+880-1706-711482 or <br> +880-1925-861066</h3>
+                    <h3 class="address"><i class="fas fa-map-marker-alt"></i>Mithapukur,Rangpur -5460</h3>
+                </div>
+            </div>
+            <form action="/contact/" method="post">
+                {% csrf_token %}
+                <input type="text" name="name" placeholder="name" id="id_name" class="box">
+                <input type="email" name="email" placeholder="email" id="id_email" class="box">
+                <textarea name="message" id="id_message" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends -->
+
+    <footer>
+        <!-- footer section starts -->
+        <hr>
+        <p class="text-white">Copyright &copy;2022,  all right reserved.</p>
+        <!-- footer section ends -->
+    </footer>
+    
+
+    <!-- jQuery file link -->
+    <!-- <script src="{% static 'js/jquery.min.js' %}"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- fontawesome js file link -->
+    <!-- <script src="{% static 'js/fontawesome.min.js' %}"></script> -->
+    <!-- custom js file link -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
